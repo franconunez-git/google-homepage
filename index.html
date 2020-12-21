@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="all"/>
 	<meta name="description" content="Google homepage">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Franco Nuñez">
@@ -9,31 +11,38 @@
 </head>
 <body>
 	<header>
-		<a href="">Gmail</a>
-		<a href="">Images</a>
-		<img src="">
-		<img src="">
+		<a href="#">Gmail</a>
+		<a href="#">Images</a>
+		<input type="image" name="apps-bt" id="apps-bt" alt="Google Apps" class="bt" src="https://www.flaticon.com/svg/static/icons/svg/60/60991.svg">
+		<input type="image" name="profile-bt" id="profile-bt" alt="Profile" class="bt" src="https://lh3.googleusercontent.com/-0x3LOb1Y9ns/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmAe5QDQrQkEYVFjiuzFnpywmeduw/photo.jpg">
 	</header>
-	<img src="">
-	<button></button>
-	<input type="text" name="">
-	<button></button>
-	<button></button>
-	<p>Google offered in <a href="">Español (Latinoamérica)</a></p>
+	<div id="content">
+		<img id="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png">
+		<div id="main-bar">
+			<input type="image" name="search-bt" id="search-bt" alt="Search" class="bt" src="https://4.bp.blogspot.com/-v4Iwa0OqOK8/WwvF3hgnXGI/AAAAAAAAB-Q/MiHeEzUtnbE_jmoyi_YNaa5Gg3i9BdzQgCLcBGAs/s1600/Search.png">
+			<input type="text" name="searchbox" id="searchbox" alt="Type to search" src="">
+			<input type="image" name="voice-bt" id="voice-bt" alt="Search by Voice" class="bt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png">
+		</div>
+		<div id="t2-buttons">
+			<input type="button" name="google-search" id="google-search" value="Google Search" alt="Search with Google">
+			<input type="button" name="lucky" id="lucky" value="I'm feeling lucky" alt="I'm feeling lucky">
+		</div>
+		<p id="offered">Google offered in <a href="">Español (Latinoamérica)</a></p>
+	</div>
 	<footer>
-		<div>
+		<div id="argentina">
 			<p>Argentina</p>
 		</div>
-		<div>
-			<a href="">Privacy</a>
-			<a href="">Terms</a>
-			<a href="">Settings</a>
-		</div>
-		<div>
+		<div id="advertising">
 			<a href="">Advertising</a>
 			<a href="">Business</a>
 			<a href="">About</a>
 			<a href="">How Search Works</a>
+		</div>
+		<div id="privacy">
+			<a href="">Privacy</a>
+			<a href="">Terms</a>
+			<a href="">Settings</a>
 		</div>
 	</footer>
 </body>

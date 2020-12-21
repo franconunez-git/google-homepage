@@ -1,0 +1,93 @@
+/*css styles*/
+html,body{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	font-family: arial,sans-serif;
+	min-width: 800px;
+	min-height: 400px;
+}
+#content{
+	z-index: 1;
+	position: absolute;
+	min-width: 400px;
+	width: 100%;
+	height: 400px;
+	flex: 1;
+	flex-direction: column;
+}
+.bt{
+	object-fit: contain;
+	border: 0;
+}
+header{
+	z-index: 2;
+	text-align: right;
+	position: absolute;
+	width: 100%;
+}
+input[type=button]{
+	color: black;
+	height: 40px;
+	width: 120px;
+	background-color: #eeeeee;
+	border-style: solid;
+	border-width: 1%;
+	border-color: white;
+	border-radius: 5px;
+}
+input[type=button]:hover{
+	border-style: groove;
+	border-color: gray;
+}
+#apps-bt{
+	max-height: 20px;
+	filter: invert(67%) sepia(5%) saturate(20%) hue-rotate(314deg) brightness(84%) contrast(91%);
+}
+#apps-bt:hover{
+	color:black ;
+	filter: none;
+}
+#profile-bt{
+	max-height: 35px;
+	border-radius: 50%;
+}
+#google{
+	object-fit: contain;
+	height: 90px;
+	padding-top: 90px;
+}
+#search-bt{
+	max-height: 20px;
+	padding-top: 60px;
+}
+#voice-bt{
+	height: 25px;
+}
+#t2-buttons{
+	padding-top: 20px;
+}
+#offered{
+	padding-top: 20px;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 15%;
+	background-color: #efefef;
+}
+#argentina{
+	position: absolute;
+	top: .7em;
+	left: 1em;
+}
+#advertising{
+	justify-content: center;
+	text-align: center;
+	/*position: absolute;
+	top: 3em;
+	left: 1em;*/
+}
